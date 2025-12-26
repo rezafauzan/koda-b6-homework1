@@ -18,7 +18,7 @@ for(let i = 0; i < 10; i++){
 flowchart TD
 
 start@{"shape": circle, "label": "Mulai"}
-initialI@{"shape": rectangle, "label": i = 0}
+initialI@{"shape": lean-l, "label": "Input: i = 0"}
 isIlessthanTen@{"shape": diamond, "label": i <= 10}
 isIlessthanTenTrue@{"shape": lean-l, "label": "Output: i"}
 iIncrement@{"shape": rectangle, "label": i++}
